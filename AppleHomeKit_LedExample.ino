@@ -26,7 +26,8 @@ static uint32_t next_heap_millis = 0;
 
 #define PIN_SWITCH 2 // GPIO of D4 in ESP8266
 
-//Called when the switch value is changed by iOS Home APP
+
+//Called when the switch value is changed by  Home APP
 void cha_switch_on_setter(const homekit_value_t value) {
 	bool on = value.bool_value;
 	cha_switch_on.value.bool_value = on;	//sync the value

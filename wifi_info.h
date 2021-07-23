@@ -10,10 +10,10 @@
 #endif
 
 char ssid[] = "Wifiname4g";
-// the SSID is the Network name
+// the SSID is the Network name ( your Wi-fi name)
 char password[] = "123456789";
-// This the network password 
-// Add your Wi fi name and it is password here so the ESP8266 cam connect to it.
+// This the network password (your Wi-fi Password)
+// Add your Wi-fi name and it is password here so the ESP8266 cam connect to it.
 
 
 void wifi_connect() {
