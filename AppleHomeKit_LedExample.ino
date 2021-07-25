@@ -25,7 +25,7 @@ extern "C" homekit_characteristic_t cha_switch_on;
 static uint32_t next_heap_millis = 0;
 
 #define PIN_SWITCH 2 // GPIO of D4 in ESP8266
-// This pin is either used from the simple LED connection
+// This pin is either used for the simple LED connection
 // or for the 5v relay Module
 
 
